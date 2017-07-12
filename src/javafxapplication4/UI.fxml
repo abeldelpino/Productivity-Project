@@ -8,25 +8,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="363.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.UIController">
    <children>
-      <Pane prefHeight="70.0" prefWidth="586.0" style="-fx-background-color: #ff0000;" />
-      <Accordion layoutX="180.0" layoutY="171.0">
-        <panes>
-          <TitledPane animated="false" text="untitled 1">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
-          <TitledPane animated="false" text="untitled 2">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
-          <TitledPane animated="false" text="untitled 3">
-            <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-            </content>
-          </TitledPane>
-        </panes>
-      </Accordion>
+      <Pane prefHeight="363.0" prefWidth="132.0" style="-fx-background-color: #ff0000;" />
+      <Pane layoutX="132.0" prefHeight="363.0" prefWidth="454.0" style="-fx-background-color: #52e9f2;" />
    </children>
 </AnchorPane>
