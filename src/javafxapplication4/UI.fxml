@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -31,6 +32,13 @@
             <Button layoutX="92.0" layoutY="581.0" mnemonicParsing="false" opacity="0.0" scaleX="1.4" scaleY="2.8" text="Button" />
          </children>
       </Pane>
-      <Pane layoutX="826.0" prefHeight="363.0" prefWidth="454.0" style="-fx-background-color: #87b7e6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="826.0" prefHeight="363.0" prefWidth="454.0" style="-fx-background-color: #87b7e6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="358.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Homepage" textAlignment="CENTER" wrappingWidth="255.55664443969727">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Text>
+         </children></Pane>
    </children>
 </AnchorPane>
