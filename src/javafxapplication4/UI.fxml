@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
@@ -44,9 +45,31 @@
          <children>
             <Pane layoutX="51.0" layoutY="156.0" prefHeight="589.0" prefWidth="945.0" style="-fx-background-color: #c6dff9;">
                <children>
-                  <Button layoutX="120.0" layoutY="55.0" mnemonicParsing="false" text="Button" />
-                  <Button layoutX="454.0" layoutY="80.0" mnemonicParsing="false" text="Button" />
-                  <Button layoutX="697.0" layoutY="75.0" mnemonicParsing="false" text="Button" />
+                  <Accordion layoutY="50.0" prefHeight="542.0" prefWidth="944.0">
+                    <panes>
+                      <TitledPane animated="false" text="untitled 1">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane animated="false" text="untitled 2">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane animated="false" minWidth="-Infinity" text="untitled 3">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                        <TitledPane animated="false" text="untitled">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          </content>
+                        </TitledPane>
+                    </panes>
+                  </Accordion>
+                  <Button layoutX="21.0" layoutY="12.0" mnemonicParsing="false" text="Add (?)" />
                </children></Pane>
             <ImageView fitHeight="83.0" fitWidth="850.0" layoutX="100.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -57,6 +80,9 @@
                   <Image url="@images/Doing%20Pressed.png" />
                </image></ImageView>
             <ImageView fitHeight="83.0" fitWidth="850.0" layoutX="100.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="195.0" layoutY="26.0" mnemonicParsing="false" text="To Do" />
+            <Button layoutX="471.0" layoutY="27.0" mnemonicParsing="false" text="Doing" />
+            <Button layoutX="770.0" layoutY="28.0" mnemonicParsing="false" text="Done" />
          </children>
       </Pane>
    </children>
